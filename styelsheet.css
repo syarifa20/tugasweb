@@ -191,3 +191,41 @@ header {
   padding: 0 25px;
   color: white;
 }
+.img{
+  height: 20px;
+  width:50px;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 30px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+  color: rgba(248, 248, 255,0.5);
+}
