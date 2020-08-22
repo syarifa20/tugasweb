@@ -171,3 +171,23 @@ header {
   float: left;
   margin-left: 20px;
 }
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+}
