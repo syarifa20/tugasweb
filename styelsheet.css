@@ -99,3 +99,32 @@ a {
   background-color: #f7f7f7;
   text-align: center;
 }
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  font-size: 20px;
+  top: 75px;
+  width: 100%;
+  color: black;
+
+}
