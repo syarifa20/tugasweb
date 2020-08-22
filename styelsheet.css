@@ -128,3 +128,46 @@ a {
   color: black;
 
 }
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  color: white;
+  padding: 15px 40px;
+  background-color: #00008B;
+  cursor: pointer;
+}
+
+.message:hover {
+  border-radius: 10px;
+  color: black;
+  background-color: ;
+}
+
+
+
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.50);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo{
+  width: 124px;
+  float: left;
+  margin-left: 20px;
+}
