@@ -11,3 +11,54 @@
     width: 100%;
     margin-bottom: 30px;
   }
+
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+.header-left{
+    display: none;
+    }
+.header-right{
+    display: block;
+    float: right;
+}
+.foto img{
+  width: 124px;
+  float: left;
+  margin-left: 20px;
+}
+
+.checkbtn{
+   color: white;
+  float: right;
+  font-size: 20px;
+  line-height: 20px;
+  margin-right: 40px;
+  display: block;
+  }
+  
+.watch {
+    width: 35%;
+  }
+.top-wrapper h1{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+
+}
+.container{
+    font-size: 14px;
+    line-height: 20px;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
